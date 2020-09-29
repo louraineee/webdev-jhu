@@ -7,10 +7,6 @@
   width: 100%;
 }
 
-@font-face{
-  font-family: and;
-  src: url(AndelliaDavilton.otf);
-}
 
 @font-face{
   font-family: ali;
@@ -24,7 +20,7 @@
 
 h1{
     text-align: center;
-    font-family: and;
+    font-family: ali;
     font-size: 50px;
 }
 
@@ -37,7 +33,8 @@ h2{
   border: 2px solid black;
   border-top: none;
   border-right: none;
-  position: 
+  position: relative;
+  font-size: 25px;
   
 }
 
