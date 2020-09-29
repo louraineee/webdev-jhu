@@ -1,0 +1,103 @@
+*{ 
+    box-sizing: border-box;
+}
+
+
+.row {
+  width: 100%;
+}
+
+@font-face{
+  font-family: and;
+  src: url(AndelliaDavilton.otf);
+}
+
+@font-face{
+  font-family: ali;
+  src: url(Alisking.ttf);
+}
+
+@font-face{
+  font-family: mit;
+  src: url(Mithella.otf);
+}
+
+h1{
+    text-align: center;
+    font-family: and;
+    font-size: 50px;
+}
+
+h2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: ali;
+}
+
+section {
+  padding: 10px;
+  margin: 0px;
+}
+
+.c1 {
+  border: 1px solid black;
+  float: right;
+  background-color: rgb(224, 97, 97);
+  min-width: 130px;
+  text-align: center;
+}
+
+.b1 {
+  border: 1px solid black;
+  background-color: rgb(158, 67, 67) ;
+  float: right;
+  min-width: 130px;
+  text-align: center;
+}
+
+.s1 {
+  border: 1px solid black;
+  background-color: sandybrown;
+  float: right; 
+  min-width: 130px;
+  text-align: center;
+}
+
+p {
+  font-family: mit;
+  color: black;
+  clear: right;
+  text-align: justify;
+  padding: 15px;
+}
+
+.col1, .col2, .col3 {
+  background-color: rgb(122, 129, 136);
+  padding: 0px;
+  border: 1px solid black;
+}
+
+@media (min-width: 992px) {
+    .sec1, .sec2, .sec3 {
+      float: left;
+      width: 33.33%;
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .sec1, .sec2 {
+    float: left;
+    width: 50%; 
+  }
+  .sec3 {
+    width: 100%;
+    clear: left; 
+  }
+}
+
+  @media (max-width: 767px){
+    .sec1, .sec2, .sec3 {
+      width: 100%;
+    }
+  }
+
